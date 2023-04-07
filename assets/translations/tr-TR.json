@@ -1,0 +1,32 @@
+{
+    "home": {
+        "home_view": {
+            "bottom_navigation": {
+                "item_recipes": "AnaSayfa",
+                "item_favorites": "Favoriler"
+            }
+        },
+        "recipes_view": {
+            "text_field_search": "Arama",
+            "multiple_select_item_title": "Tarif Türü",
+            "multiple_select_item_button": "Tarif Türü Seç",
+            "multiple_select_item_confirm": "Tamam",
+            "multiple_select_item_cancel": "İptal",
+            "servings": "{} servings",
+            "calories": "{} kcal"
+        },
+        "favorites_view": {
+            "app_bar_title": "Favoriler",
+            "remove_favorites": "Sil",
+            "servings": "{} porsiyon",
+            "calories": "{} kcal"
+        },
+        "recipes_detail_view": {
+            "app_bar_title": "Tarif Detayı",
+            "recipes_source_button": "Tarifin Kaynağını Göster"
+        },
+        "recipes_source_view": {
+            "app_bar_title": "Tarifin Kaynağı"
+        }
+    }
+}

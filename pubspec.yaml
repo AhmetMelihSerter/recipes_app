@@ -1,0 +1,54 @@
+name: recipes_app
+description: Recipes App.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.6 <3.0.0"
+
+dependencies:
+  auto_route: ^5.0.4
+  collection: ^1.17.0
+  cupertino_icons: ^1.0.5
+  dio: ^5.1.1
+  easy_localization: ^3.0.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_animator: ^3.2.2
+  flutter_dotenv: ^5.0.2
+  flutter_inappwebview: <=5.4.0
+  flutter_secure_storage: ^8.0.0
+  flutter_slidable: ^2.0.0
+  get_it: ^7.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  hive_generator: ^2.0.0
+  injectable: ^2.1.1
+  input_history_text_field: ^0.2.0
+  intl: ^0.17.0
+  json_annotation: ^4.8.0
+  kartal: ^2.8.0
+  logger: ^1.3.0
+  multi_select_flutter: ^4.1.3
+  provider: ^6.0.5
+  share_plus: ^6.3.1
+  uuid: ^3.0.7
+
+dev_dependencies:
+  auto_route_generator: ^5.0.3
+  build_runner: ^2.3.3
+  flutter_test:
+    sdk: flutter
+  injectable_generator: ^2.1.5
+  json_serializable: ^6.6.1
+  very_good_analysis: ^4.0.0+1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/translations/
